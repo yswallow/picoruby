@@ -48,7 +48,7 @@ module MRuby
 
       case picoruby_conf
       when :default
-        cc.defines << "MRBC_USE_MATH=1"
+        #cc.defines << "MRBC_USE_MATH=1"
         cc.defines << "MRBC_INT64=1"
         cc.defines << "MAX_SYMBOLS_COUNT=#{ENV['MAX_SYMBOLS_COUNT'] || 1000}"
         cc.defines << "MAX_VM_COUNT=#{ENV['MAX_VM_COUNT'] || 255}"

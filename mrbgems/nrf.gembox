@@ -1,0 +1,6 @@
+MRuby::GemBox.new do |conf|
+
+  conf.gem github: 'yswallow/mruby-pico-compiler', branch: 'nrf'
+  conf.gem core: 'picoruby-mrubyc'
+
+end
