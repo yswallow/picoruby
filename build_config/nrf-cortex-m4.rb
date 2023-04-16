@@ -34,7 +34,7 @@ MRuby::CrossBuild.new("nrf-cortex-m4") do |conf|
   conf.cc.defines << "MRBC_REQUIRE_32BIT_ALIGNMENT"
   conf.cc.defines << "MRBC_CONVERT_CRLF"
   conf.cc.defines << "MRBC_USE_MATH=0"
-  conf.cc.defines << "MRBC_NO_TIMER"
+  #conf.cc.defines << "MRBC_NO_TIMER"
   conf.cc.defines << "MRBC_TICK_UNIT=1"
   conf.cc.defines << "MRBC_TIMESLICE_TICK_COUNT=10"
   conf.cc.defines << "LEMON_PICORBC"
